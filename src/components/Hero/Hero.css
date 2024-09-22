@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(30, 0, 40, 0.7), rgba(30, 0, 40, 0.7)),
+    url("https://btlkalikacampus.edu.np/wp-content/uploads/2024/07/BKC_Building.png");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.hero-text p {
+  margin: 10px auto 20px;
+  line-height: 1.4;
+  max-width: 700px;
+}
+.explore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.arrow {
+  font-size: x-large;
+}
+
+/* Media quesy */
+@media (max-width: 820px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 530px) {
+  .hero-text h1 {
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .hero-text p {
+    font-size: 14px;
+  }
+}
