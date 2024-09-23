@@ -28,7 +28,7 @@ export const TestimonialsData = [
   {
     image: user_4,
     name: "Emily Williams 4",
-    address: "Edusity, USA",
+    address: "Edusity, Uk",
     description:
       "Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
   },
