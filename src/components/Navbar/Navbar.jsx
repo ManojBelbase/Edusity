@@ -22,8 +22,8 @@ const Navbar = () => {
       <ul className={`${mobileMenu ? "" : "hide-monile-menu"}`}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
-            Program
-          </Link>{" "}
+            Home
+          </Link>
         </li>
         <li>
           <Link to="programs" smooth={true} offset={-260} duration={500}>
